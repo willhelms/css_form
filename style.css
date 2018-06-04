@@ -1,0 +1,54 @@
+body{
+	background-color: #298eea;
+}
+
+.logo{
+  height: 35px;
+  margin: 35px;
+}
+
+header{
+  text-align: center;
+}
+
+
+.form fieldset{
+	box-sizing: border-box;
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px;
+	background-color: white;
+	padding: 40px;
+}
+
+.form label{
+	font-weight: bold;
+	display: block;
+	margin-bottom: 10px;
+}
+
+.form input, button{
+	box-sizing: border-box;
+	display: block;
+	margin-bottom: 20px;
+	width: 320px;
+	height: 55px;
+	border: 2px solid grey;
+	padding: 15px;
+}
+
+.form button{
+	margin-top: 10px;
+	text-align: center;
+}
+
+p{
+	text-align: center;
+}
+
+.form h1{
+	font-size: 35px;
+	line-height: 38px;
+	text-align: center;
+	font-weight: 300;
+}

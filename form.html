@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Analog SEA Form</title>
+	<meta charset="utf-8" name="description" content="sign up form for Analog Sea ">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<main>
+		<header><img src="logo.png" class="logo"></header>
+		<form class="form centered" action="/signup" method="post">
+
+			<fieldset name="sign-up">
+				<h1>Sign Up</h1>
+				<label for="email" required>Email</label>
+					<input placeholder='foo@bar.com' type='email' name='email' id='email'  required />
+				<label for="password" required>Password</label>
+					<input placeholder='1234passw0rd' type='password' name='password' id='password'  required />
+					<button type="submit">Sign-up</button>
+			</fieldset>
+			
+		</form>
+		<p>Already have an accoun?<a href="/log-in">Log in</a></p>
+	</main>
+</body>
+</html>
